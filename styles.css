@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.calc-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs-wrapper__input-container {
+  display: flex;
+  gap: 5px;
+}
+
+.inputs-wrapper__input-label {
+  width: 50px;
+}
+
+.buttons-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.buttons-section > button {
+  flex-grow: 1;
+  max-width: 50px;
+}

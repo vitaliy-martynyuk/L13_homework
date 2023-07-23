@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calc-wrapper">
+      <div class="inputs-wrapper">
+        <div class="inputs-wrapper__input-container">
+          <label class="inputs-wrapper__input-label" for="value1"
+            >Value 1</label
+          >
+          <input class="inputs-wrapper__input" id="value1" />
+        </div>
+        <div class="inputs-wrapper__input-container">
+          <label class="inputs-wrapper__input-label" for="value2"
+            >Value 2</label
+          >
+          <input class="inputs-wrapper__input" id="value2" />
+        </div>
+        <div class="inputs-wrapper__input-container">
+          <label class="inputs-wrapper__input-label" for="result">Result</label>
+          <input class="inputs-wrapper__input" id="result" disabled />
+        </div>
+      </div>
+      <div class="buttons-wrapper">
+        <div class="buttons-section">
+          <button id="add-button">+</button>
+          <button id="subtract-button">-</button>
+          <button id="multiply-button">*</button>
+          <button id="divide-button">/</button>
+        </div>
+        <div class="buttons-section">
+          <button id="greater-button">></button>
+          <button id="greater-or-equals-button">>=</button>
+          <button id="less-button"><</button>
+          <button id="less-or-equals-button"><=</button>
+        </div>
+        <div class="buttons-section">
+          <button id="equals">==</button>
+          <button id="strict-equals">===</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
