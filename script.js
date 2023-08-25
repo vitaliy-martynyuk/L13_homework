@@ -19,41 +19,31 @@ const strictEquals = document.getElementById("strict-equals");
 //Нагадування: калькулятор для чисел(Number)
 addButton.addEventListener("click", () => {
   //сюди код для + логіки
-  result.value = Number(value1.value) + Number(value2.value)
 });
 subtractButton.addEventListener("click", () => {
   //сюди код для - логіки
-  result.value = Number(value1.value) - Number(value2.value)
 });
 multiplyButton.addEventListener("click", () => {
   //сюди код для * логіки
-  result.value = Number(value1.value) * Number(value2.value)
 });
 divideButton.addEventListener("click", () => {
   //сюди код для / логіки
-  result.value = Number(value1.value) / Number(value2.value)
 });
 greaterButton.addEventListener("click", () => {
   //сюди код для > логіки
-  result.value = Number(value1.value) > Number(value2.value)
 });
 greaterOrEqualsButton.addEventListener("click", () => {
   //сюди код для >= логіки
-  result.value = Number(value1.value) >= Number(value2.value)
 });
 lessButton.addEventListener("click", () => {
   //сюди код для < логіки
-  result.value = Number(value1.value) < Number(value2.value)
 });
 lessOrEqualsButton.addEventListener("click", () => {
   //сюди код для <= логіки
-  result.value = Number(value1.value) <= Number(value2.value)
 });
 equalsButton.addEventListener("click", () => {
   //сюди код для == логіки
-  result.value = Number(value1.value) == Number(value2.value)
 });
 strictEquals.addEventListener("click", () => {
   //сюди код для === логіки
-  result.value = Number(value1.value) === Number(value2.value)
 });
