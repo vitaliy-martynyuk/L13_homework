@@ -16,7 +16,6 @@ const equalsButton = document.getElementById("equals");
 const strictEquals = document.getElementById("strict-equals");
 
 //Підказка: значення інпутів зберігається під value ключем(value1, value2, result - об'єкти)
-//Нагадування: калькулятор для чисел(Number)
 addButton.addEventListener("click", () => {
   //сюди код для + логіки
 });
